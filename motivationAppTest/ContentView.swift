@@ -66,7 +66,8 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            Color.blue
+            Color(red: 33/255, green: 36/255, blue: 43/255)
+           
                 .ignoresSafeArea()
             
             TabView {
@@ -92,7 +93,7 @@ struct QuoteCard: View {
     
     var body: some View {
         ZStack {
-            Color.blue
+            Color(red: 73/255, green: 76/255, blue: 79/255)
                 .cornerRadius(10) // Rounded corners for the card
                 .shadow(radius: 5) // Add a shadow for a card effect
             VStack {

@@ -46,7 +46,7 @@ class QuoteViewModel: ObservableObject {
     }
     
     func fetchQuotes() {
-        guard let url = URL(string: "https://api.api-ninjas.com/v1/quotes?category=happiness") else { return }
+        guard let url = URL(string: "https://api.api-ninjas.com/v1/quotes?category=inspirational") else { return }
         
         var request = URLRequest(url: url)
         request.addValue("lnrKk/a+Zrd7/Yr2lOpC0Q==GuwliNa6EAj3Ldgd", forHTTPHeaderField: "X-Api-Key") // Add your API key here

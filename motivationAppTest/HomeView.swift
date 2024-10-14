@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct HomeView: View {
+    
     var body: some View {
         NavigationView {
             ZStack {
@@ -33,6 +34,7 @@ struct HomeView: View {
                                 .clipShape(Circle()) // Makes the button a circle
                                 .shadow(radius: 5) // Optional shadow for better visibility
                         }
+                        
                         .padding(.trailing, 26) // Add some padding from the right edge
                     }
                     .padding(.bottom, 40) // Additional padding to move the button lower

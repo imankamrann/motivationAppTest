@@ -84,6 +84,7 @@ struct ContentView: View {
             .indexViewStyle(.page(backgroundDisplayMode: .never))
             .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height) // Full height and width for the TabView
         }
+        
     }
 }
 

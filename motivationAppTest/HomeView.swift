@@ -14,10 +14,10 @@ struct HomeView: View {
                     Spacer() // Pushes the content down
 
                     // Welcome Text
-                    Text("Welcome to the Motivation App")
-                        .font(.largeTitle)
-                        .foregroundColor(.white)
-                        .padding()
+                    Text("Motivation App")
+                        .font(.custom("CormorantGaramond-BoldItalic", size: 55))
+                        .foregroundColor(Color(red: 217/255, green: 213/255, blue: 207/255))
+                        .padding(40)
 
                     HStack {
                         Spacer() // Pushes the button to the right
@@ -34,7 +34,7 @@ struct HomeView: View {
                         }
                         .padding(.trailing, 40) // Add some padding from the right edge
                     }
-                    .padding(.bottom, 50) // Additional padding to move the button lower
+                    .padding(.bottom, 70) // Additional padding to move the button lower
                 }
             }
         }
